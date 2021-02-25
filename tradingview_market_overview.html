@@ -44,11 +44,10 @@
       border-spacing: 0;
   }
 </style>
-
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Financial Markets</span></a> by TradingView</div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/indices/" rel="noopener" target="_blank"><span class="blue-text">Indices</span></a> <span class="blue-text">and</span> <a href="https://www.tradingview.com/markets/futures/" rel="noopener" target="_blank"><span class="blue-text">Commodities</span></a> by TradingView</div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
   {
   "colorTheme": "dark",
@@ -76,23 +75,15 @@
           "d": "S&P 500"
         },
         {
-          "s": "FOREXCOM:NSXUSD",
-          "d": "Nasdaq 100"
-        },
-        {
-          "s": "FOREXCOM:DJI",
-          "d": "Dow 30"
-        },
-        {
-          "s": "INDEX:NKY",
-          "d": "Nikkei 225"
-        },
-        {
           "s": "COINBASE:BTCUSD",
           "d": "Bitcoin"
         },
         {
           "s": "TVC:VIX"
+        },
+        {
+          "s": "TVC:US10Y",
+          "d": "10Y Yield"
         }
       ],
       "originalTitle": "Indices"
@@ -126,60 +117,6 @@
         }
       ],
       "originalTitle": "Commodities"
-    },
-    {
-      "title": "Bonds",
-      "symbols": [
-        {
-          "s": "CME:GE1!",
-          "d": "Eurodollar"
-        },
-        {
-          "s": "CBOT:ZB1!",
-          "d": "T-Bond"
-        },
-        {
-          "s": "CBOT:UB1!",
-          "d": "Ultra T-Bond"
-        },
-        {
-          "s": "EUREX:FGBL1!",
-          "d": "Euro Bund"
-        },
-        {
-          "s": "EUREX:FBTP1!",
-          "d": "Euro BTP"
-        },
-        {
-          "s": "EUREX:FGBM1!",
-          "d": "Euro BOBL"
-        }
-      ],
-      "originalTitle": "Bonds"
-    },
-    {
-      "title": "Forex",
-      "symbols": [
-        {
-          "s": "FX:EURUSD"
-        },
-        {
-          "s": "FX:GBPUSD"
-        },
-        {
-          "s": "FX:USDJPY"
-        },
-        {
-          "s": "FX:USDCHF"
-        },
-        {
-          "s": "FX:AUDUSD"
-        },
-        {
-          "s": "FX:USDCAD"
-        }
-      ],
-      "originalTitle": "Forex"
     }
   ]
 }
