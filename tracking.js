@@ -4,3 +4,8 @@ document.getElementsByClassName("notion-block-bf5788b18ea447cead4861d88baff799")
 document.getElementsByClassName("notion-block-3ec68c05aa9c40bbb3941d6fee03cf8a")[0].onclick = fathom.trackGoal('WX7QBP5H', 0);
 document.getElementsByClassName("notion-block-bb83df928dd84885ad28a3c47c97f057")[0].onclick = fathom.trackGoal('NZSCMVXI', 0);
 document.getElementsByClassName("notion-block-5037072a8b694791b06094da17db5075")[0].onclick = fathom.trackGoal('0K8YOOYY', 0);
+
+
+document.getElementsByClassName("notion-collection-card notion-collection-card-size-small").map( 
+      obj => obj.onclick = window.fathom.trackGoal('QVKYUVGL', 0)
+  )
