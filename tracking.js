@@ -6,6 +6,6 @@ document.getElementsByClassName("notion-block-bb83df928dd84885ad28a3c47c97f057")
 document.getElementsByClassName("notion-block-5037072a8b694791b06094da17db5075")[0].onclick = fathom.trackGoal('0K8YOOYY', 0);
 
 
-document.getElementsByClassName("notion-collection-card notion-collection-card-size-small").map( 
+Array.from(document.getElementsByClassName("notion-collection-card notion-collection-card-size-small")).map( 
       obj => obj.onclick = window.fathom.trackGoal('QVKYUVGL', 0)
   );
