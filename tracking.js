@@ -8,4 +8,4 @@ document.getElementsByClassName("notion-block-5037072a8b694791b06094da17db5075")
 
 document.getElementsByClassName("notion-collection-card notion-collection-card-size-small").map( 
       obj => obj.onclick = window.fathom.trackGoal('QVKYUVGL', 0)
-  )
+  );
